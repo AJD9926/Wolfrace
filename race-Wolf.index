@@ -66,7 +66,6 @@
         <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_WOLF FOLK_CANINE_SENSES"/>
         <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_WOLF FOLK_PACKMATE"/>
     </rules>
-    </element>
     <element name="Bite" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_WOLF FOLK_BITE">
         <description>
             <p>Your sharp teeth make your bite a powerful weapon for unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier.</p>
