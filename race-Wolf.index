@@ -46,9 +46,9 @@
     <sheet display="false"/>
     <supports />
 	<setters>
-	  <set name="names" type="male">Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn
-	  <set name="names" type="female">Akra, Biri, Daar, Farideh, Harann, Flavilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit
-	  <set name="names" type="childhood">Climber, Earbender, Leaper, Pious, Shieldbiter, Zealous
+	  <set name="names" type="male">Arjhan, Balasar, Bharash, Donaar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn</set>
+	  <set name="names" type="female">Akra, Biri, Daar, Farideh, Harann, Flavilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit</set>
+	  <set name="names" type="childhood">Climber, Earbender, Leaper, Pious, Shieldbiter, Zealous</set>
 	  <set name="height" modifier="2d8">5'0"</set>
 	  <set name="weight" modifier="2d6">130 lb.</set>
 	</setters>
