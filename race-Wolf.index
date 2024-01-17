@@ -88,5 +88,6 @@
 		<sheet>
 			<description>When an allied creature attacks a creature that is within 5 feet of both yourself and the attacking ally, you can use any reaction to grant that creature advantage on the attack roll. To use this trait, you must see both creatures.</description>
 		</sheet>
-  </element>
+   </element>
+ </element>
 </elements>
