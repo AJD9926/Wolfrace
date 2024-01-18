@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<element name="Oni" type="Race" source="Homebrew" id="ID_HOMEBREW_RACE_ONI">
+		<description>
+			<p>"Sanzo was transfixed by the beauty of the maiden in front of him, so much so that he did not notice that the sake in his cup had become muddy water, or that the magnificent castle around him was fading away like an ink painting submerged in water. He only noticed when the horns poked up from the maiden's forehead and the smile she had so carefully hidden throughout his visit, revealed a row of sharp teeth. And by then it was too late." -A cautionary tale to a young samurai</p>
+			<h4>PHYSICAL DESCRIPTION</h4>
+			<p>In their natural form, Oni look like demonic Ogres though are slightly smaller in stature. They have skin that varies between hues of red, blue and white, and dark colored eyes with shining white pupils. They have long wild hair that is usually black or grey; however, pure white hair is not an uncommon sight, especially among the Pale Oni. They have a pair of short ivory horns protruding out of their forehead that grow longer as they age and their teeth and claws are jet black. The length of their horns is something Oni take pride in, to the point that even the most disheveled Oni are known to polish their horns on a daily basis. While Oni commonly take the form of other humanoid species to blend in, some Oni who live in harmony with other races, tend to take on hybrid forms, still appearing to be part of their host race, except with their horns protruding from their forehead, proudly visible to all.</p>
+			<h4>HISTORY</h4>
+			<p>At one time, the Oni guarded locations where the Spirit World overlapped with the Material Plane. Years on the Material Plane, however, corrupted some of the Oni splintering them into the three sub-races. The Oni corrupted by the material pleasures of the world became the Red Oni. The Oni corrupted by the power and knowledge of the world became the Blue Oni. The Oni that remained guard, resisting the temptations became the White Oni.</p>
+			<h4>SOCIETY</h4>
+			<p>Most Oni live solitary lives in the wilderness, only interacting with other Oni in annual revels. These revels are massive in size, sometimes containing up to two hundred Oni and the Oni are drawn to them like moths to a candle, usually sensing the event weeks in advance. Violence is forbidden during these revels, and those that violate this rule have their horns sawed short and are cast out in exile. It is not uncommon for Oni to live among other races, whether secretly or not, due to their shapeshifting power, however, they are mostly shunned from all but the most accepting settlements in their true forms until they prove themselves to the inhabitants. Even after they are accepted, Oni rarely revert to their true form, preferring to take on their hybrid appearance to keep others at ease, out of kindness... or for their own personal benefit.</p>
+			<h4>ONI NAMES</h4>
+			<p>Oni names are granted at their first level if they are Blue or Red Oni. Sometimes, the names are from a famous Oni, or a powerful adversary, but often they are just words of meaning fused together in a drunken stupor.</p>
+			<p><strong>Male Names:</strong> Waka, Douji, Akuran, Yorozu, Ibaraki, Jizou, Hachiman, Daikoku, Akuma</p>
+			<p><strong>Female Names:</strong>Hashi, Rairaku, Akane, Izami, Koyane, Sakuya, Benzen, Amematsu</p>
+			<p>Pale Oni do not have names in order to keep themselves distant from the Material Plane and usually address each other and themselves as "this one". However, when traveling with companions from other races, the Oni will often take a name that signifies a virtue or concept.</p>
+			<p><strong>Pale Oni Names:</strong>Mu (Nothingness), Jingi (Honor), Hei-on (Tranquil), Daigo (Enlightenment), Satori (Comprehension), Waraku (Harmony), Enman (Perfection), Tsutome (Duty)</p>
+		</description>
+		<setters>
+			<set name="names" type="male">Waka, Douji, Akuran, Yorozu, Ibaraki, Jizou, Hachiman, Daikoku, Akuma</set>
+			<set name="names" type="female">Hashi, Rairaku, Akane, Izami, Koyane, Sakuya, Benzen, Amematsu</set>
+			<set name="names" type="construct">Mu (Nothingness), Jingi (Honor), Hei-on (Tranquil), Daigo (Enlightenment), Satori (Comprehension), Waraku (Harmony), Enman (Perfection), Tsutome (Duty)</set>
+			<set name="names-format">{{name}}</set>
+			<set name="height" modifier="2d8">6′5″</set>
+			<set name="weight" modifier="2d6">350 lb.</set>
+		</setters>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="2" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_GIANT" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SHAPESHIFTER" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ONI_SUBRACE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_CLAWS" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_YOKAI_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_GOLIATH_POWERFUL_BUILD" />
+		</rules>
+	</element>
+
+	<element name="Claws" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_CLAWS">
+		<description>
+			<p> In your true form, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</p>
+		</description>
+		<sheet>
+			<description> In your true form, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</description>
+		</sheet>
+	</element>
+
+	<element name="Shapeshifter" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_SHAPESHIFTER">
+		<description>
+			<p> As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can’t duplicate the appearance of a creature you’ve never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren’t changed by this trait. You stay in the new form until you use an action to revert to your true form or until you die.</p>
+		</description>
+		<sheet>
+			<description>  As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can’t duplicate the appearance of a creature you’ve never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren’t changed by this trait. You stay in the new form until you use an action to revert to your true form or until you die.</description>
+		</sheet>
+	</element>
+
+	<element name="Yokai Resistance" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_YOKAI_RESISTANCE">
+		<description>
+			<p>Thanks to the energy of the yokai, you have resistance to poison damage and advantage on saving throws against becoming poisoned.</p>
+		</description>
+		<sheet>
+			<description>Thanks to the energy of the yokai, you have resistance to poison damage and advantage on saving throws against becoming poisoned.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+		</rules>
+	</element>
+
+	<element name="Powerful Build" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_GOLIATH_POWERFUL_BUILD">
+		<description>
+			<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+		</description>
+		<sheet>
+			<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+		</rules>
+	</element>
+
+	<element name="Oni Subrace" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ONI_SUBRACE">
+		<description>
+			<p>The Different kinds of Oni.</p>
+		</description>
+		<sheet display="false"/>
+		<rules>
+			<select type="Sub Race" name="Oni Subrace" supports="Oni" />
+		</rules>
+	</element>
+
+	<element name="Aka Oni (Red Oni)" type="Sub Race" source="Homebrew" id="ID_HOMEBREW_SUB_RACE_RED_ONI">
+		<supports>Oni</supports>
+		<description>
+			<p>The most common out of the oni, red oni or aka oni are known for their large size and toughness. They are slightly bigger than the rest of their kin, with skin coloration in shades of dark red. They are violent, hot-headed, and unfocused, often pursuing immediate satisfaction and disregarding long-term plots and schemes.</p>
+			<p class="indent"><strong><em>The Revel Continues.</em></strong> When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest. </p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score is increased by 1. </p>
+		</description>
+			<sheet display="false"/>
+		<rules>
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_THE_REVEL_CONTINUES" />
+			<stat name="strength" value="1" />
+		</rules>
+	</element>
+
+	<element name="The Revel Continues" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_THE_REVEL_CONTINUES">
+		<description>
+			<p>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.</p>
+		</description>
+		<sheet>
+			<description>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.</description>
+		</sheet>
+	</element>
+
+  <element name="Ao Oni (Blue Oni)" type="Sub Race" source="Homebrew" id="ID_SUB_RACE_BLUE_ONI">
+		<supports>Oni</supports>
+		<description>
+			<p>Blue oni or ao oni are known for their unnatural cunning and aptitude for magic. They are smaller than their red kin, though larger than their pale kin, and with skin coloration of shades of dark blue. They are usually calculating and meticulous pursuing lofty goals such as of power and knowledge.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Inteligence score Increases by 1.</p>
+			<p class="indent"><strong><em>Oni Magic.</em></strong>  Blue oni can muster the innate magic within themselves which gets stronger as they grow in power. You know the dancing lights cantrip. When you reach 3rd level, you can cast the charm person spell once and need to finish a long rest before you can cast it again. Intelligence is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="Inteligence" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_ONI_MAGIC" />
+		</rules>
+	</element>
+
+	<element name="Oni Magic" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_ONI_MAGIC">
+		<description>
+			<p> Blue oni can muster the innate magic within themselves which gets stronger as they grow in power. You know the dancing lights cantrip. When you reach 3rd level, you can cast the charm person spell once and need to finish a long rest before you can cast it again. Intelligence is your spellcasting ability for these spells.</p>
+		</description>
+		<sheet>
+			<description level="1">You know the dancing lights cantrip. (Spellcasting: Intelligence)</description>
+			<description level="3">You know the dancing lights cantrip and you can cast the charm person spell once and need to finish a long rest before you can cast it again. (Spellcasting: Intelligence)</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_DANCING_LIGHTS" level="1" />
+			<grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" level="3" />
+		</rules>
+	</element>
+
+	<element name="Shiro Oni (Pale Oni)" type="Sub Race" source="Homebrew" id="ID_SUB_RACE_PALE_ONI">
+		<supports>Oni</supports>
+		<description>
+			<p>Pale oni or shiro oni are known for their aloofness and connections to the spiritual realm. They are the smallest of oni, and are the fewest. Their skin can vary from pale white to light grey. Unlike the other oni, pale oni wish only to keep the balance between the Spirit World and the Material Plane. They usually guard locations where the presence of the Spirit World but sometimes adventure to seek artifacts of the spirit world or mend imbalances.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong>Your Wisdom score is increased by 1.</p>
+			<p class="indent"><strong><em>Spirit Walk.</em></strong> Pale oni are still heavily in tune with the spirit world and can for brief moments step through the boundaries between planes. As an action, you can magically teleport up to 30 feet to an unoccupied space of darkness that you can see. Once you use this trait, you can’t do so again until you finish a short or long rest.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="Wisdom" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SPIRIT_WALK" />
+		</rules>
+	</element>
+
+	<element name="Spirit Walk" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_SPIRIT_WALK">
+		<description>
+			<p>Pale oni are still heavily in tune with the spirit world and can for brief moments step through the boundaries between planes. As an action, you can magically teleport up to 30 feet to an unoccupied space of darkness that you can see. Once you use this trait, you can’t do so again until you finish a short or long rest.</p>
+		</description>
+		<sheet>
+			<description>Pale oni are still heavily in tune with the spirit world and can for brief moments step through the boundaries between planes. As an action, you can magically teleport up to 30 feet to an unoccupied space of darkness that you can see. Once you use this trait, you can’t do so again until you finish a short or long rest.</description>
+		</sheet>
+	</element>
+
+
+</elements>
