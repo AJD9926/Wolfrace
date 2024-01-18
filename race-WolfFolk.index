@@ -21,7 +21,7 @@
 			<set name="names" type="male">Waka, Douji, Akuran, Yorozu, Ibaraki, Jizou, Hachiman, Daikoku, Akuma</set>
 			<set name="names" type="female">Hashi, Rairaku, Akane, Izami, Koyane, Sakuya, Benzen, Amematsu</set>
 			<set name="names" type="construct">Mu (Nothingness), Jingi (Honor), Hei-on (Tranquil), Daigo (Enlightenment), Satori (Comprehension), Waraku (Harmony), Enman (Perfection), Tsutome (Duty)</set>
-			<set name="names-format">{{name}}</set>
+			<set name="names-format"={{name}}</set>
 			<set name="height" modifier="2d8">6′5″</set>
 			<set name="weight" modifier="2d6">350 lb.</set>
 		</setters>
