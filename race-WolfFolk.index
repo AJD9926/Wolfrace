@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-
+	<info>
+		<update version="1.0.3">
+			<file name="race-WolfFolk.index" url="https://raw.githubusercontent.com/AJD9926/Wolfrace/main/race-WolfFolk.index" />
+		</update>
+	</info>
 	<element name="Oni" type="Race" source="Homebrew" id="ID_HOMEBREW_RACE_ONI">
 		<description>
 			<p>"Sanzo was transfixed by the beauty of the maiden in front of him, so much so that he did not notice that the sake in his cup had become muddy water, or that the magnificent castle around him was fading away like an ink painting submerged in water. He only noticed when the horns poked up from the maiden's forehead and the smile she had so carefully hidden throughout his visit, revealed a row of sharp teeth. And by then it was too late." -A cautionary tale to a young samurai</p>
